@@ -7,16 +7,17 @@ body
 {
     background-color: rgb(59, 59, 59);
     color: white;
+    margin-left: 15px;
 }
 
 a:visited
 {
-    color: yellowgreen;
+    color: burlywood;
 }
 
 a
 {
-    color: blue;
+    color: green;
 }
 
 a:hover
