@@ -2,3 +2,29 @@ aside>img
 {
     width: 20%;
 }
+
+body
+{
+    background-color: rgb(59, 59, 59);
+    color: white;
+}
+
+a:visited
+{
+    color: yellowgreen;
+}
+
+a
+{
+    color: blue;
+}
+
+a:hover
+{
+    color: red;
+}
+
+h1, h2, h3
+{
+    color: red;
+}
