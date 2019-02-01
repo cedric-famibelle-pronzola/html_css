@@ -1,27 +1,29 @@
 .vert
 {
-    position: relative;
     background-color: green;
+    width: 400px;
     height: 200px;
-    width: 500px;
+    border: 3px solid black;
 }
 
 .bleue
 {
-    position: absolute;
-    top: 30px;
-    left: 30px;
     background-color: blue;
-    height: 150px;
-    width: 400px;
+    border: 3px solid black;
+    width: 70%;
+    height: 60%;
+    margin: auto;
+    margin-top: 9%;
+
 }
 
 .orange
 {
-    position: absolute;
-    top: 50px;
-    left: 50px;
     background-color: chocolate;
-    height: 50px;
-    width: 300px;
+    border: 3px solid black;
+    width: 70%;
+    height: 60%;
+    margin: auto;
+    margin-top: 7%;
+
 }
