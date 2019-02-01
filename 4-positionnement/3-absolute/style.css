@@ -1,0 +1,32 @@
+.vert
+{
+    position: absolute;
+    background-color: green;
+    width: 400px;
+    height: 200px;
+    border: 3px solid black;
+}
+
+.bleue
+{
+    position: absolute;
+    left: 20px;
+    background-color: rgba(0, 0, 255, 0.5);
+    border: 3px solid black;
+    width: 85%;
+    height: 60%;
+    margin: auto;
+    margin-top: 9%;
+
+}
+
+.orange
+{
+    position: absolute;
+    top: 230px;
+    left: 160px;
+    background-color: chocolate;
+    border: 3px solid black;
+    width: 60px;
+    height: 60px;
+}
