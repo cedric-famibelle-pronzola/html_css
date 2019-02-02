@@ -1,0 +1,51 @@
+.content
+{
+    padding: 20px;
+    width: 500px;
+    height: 550px;
+    border: 3px solid black;
+}
+
+.vert
+{
+    background-color: green;
+    border: 3px solid black;
+    width: 100px;
+    height: 100px;
+    
+}
+
+.bleue
+{
+    background-color: blue;
+    border: 3px solid black;
+    width: 100px;
+    height: 100px;
+    
+}
+
+.chocolat
+{
+    background-color: chocolate;
+    border: 3px solid black;
+    width: 350px;
+    height: 100px;
+}
+
+.gris
+{
+    background-color: gray;
+    border: 3px solid black;
+    width: 100px;
+    height: 100px;
+    
+}
+
+.jaune
+{
+    background-color: yellow;
+    border: 3px solid black;
+    width: 100px;
+    height: 100px;
+
+}
