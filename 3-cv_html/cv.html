@@ -12,18 +12,15 @@
         <header>
             <h1>Cédric FAMIBELLE-PRONZOLA</h1>
         </header>
-        <article>
-            <h2>Informations</h2>
+        <article id="left">
+            <h2>En formation au sein de l'IFA de Metz</h2>
             <aside>
                 <img src="./img/cv.jpg" alt="Photo du CV" title="Photo du CV">
             </aside>
-            <section>
+            <section id="presentation">
                 <h3>Présentation</h3>
                 <p>
                     Développeur Web
-                </p>
-                <p>
-                    En Formation
                 </p>
                 <p>
                     Passionné d'informatique et de 
@@ -61,8 +58,8 @@
                 </p>
             </section>
         </article>
-        <article>
-            <h2>Parcours</h2>
+        <article id="right">
+            <h2 id="hidden">Parcours</h2>
             <section>
                 <h3>Formation</h3>
                 <p>
@@ -126,8 +123,8 @@
             </section>
         </article>
         <footer>
-            <article>
-                <h2>Formulaire</h2>
+            <article id="form">
+                <h2>Formulaire </h2>
                 <form action="cv.html" method="post">
                     <fieldset>
                         <legend>Veuillez remplir le formulaire ci-dessous</legend>
@@ -146,7 +143,7 @@
                         <p>
                             <label>Couleur favorite :</label>
                             <label for="blue">Bleu</label>
-                            <input type="radio" name="color" id="blue" value="blue">
+                            <input type="radio" name="color" id="blue" value="blue" required>
                             <label for="red">Rouge</label>
                             <input type="radio" name="color" id="red" value="red">
                             <label for="yellow">Jaune</label>
