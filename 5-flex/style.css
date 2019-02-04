@@ -30,6 +30,7 @@ nav
 
 ul
 {
+    padding: 0px;
     display: flex;
     flex-direction: row;
     list-style: none;
