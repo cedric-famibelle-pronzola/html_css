@@ -1,0 +1,22 @@
+.grid-container
+{
+    height: 90vh;
+    display: grid;
+    grid-template-areas:
+    "w1 w1 w1 w1"
+    "w2 w2 w2 ."; 
+    grid-gap: 8px;
+    background: black;
+    padding: 10px;
+}
+
+.item1
+{
+    grid-area: w1;
+    background-color: white;
+}
+.item2
+{
+    grid-area: w2;
+    background-color: blue;
+}
