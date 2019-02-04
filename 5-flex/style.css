@@ -40,7 +40,7 @@ ul
 li
 {
     flex : 1;
-    border: 1px outset white;
+    border: 2px outset;
 }
 
 article
