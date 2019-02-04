@@ -1,50 +1,40 @@
 .grid-container
 {
-    height: 90vh;
+    height: 60vh;
     display: grid;
     grid-template-areas:
-    "w4 w1 w1 w1 w1 w1 w1 w1 w2 w2 w2 w2 w2 w2 w2 w2 w3 y1"
-    "w4 b1 b1 b1 b1 b1 b1 b1 W5 w5 w5 b2 b2 b2 b2 b2 w3 y1"
-    "w4 b1 b1 b1 b1 b1 b1 b1 w5 w5 w5 b2 b2 b2 b2 b2 w3 y1"
-    "bk w6 w6 bk w7 w7 w7 w8 y2 y2 y2 o1 o1 o1 o1 o2 w3 y1"
-    "bk w6 w6 bk w7 w7 w7 w8 y2 y2 y2 o1 o1 o1 o1 o2 w3 y1"
-    "bk w6 w6 bk w7 w7 w7 w8 y2 y2 y2 o1 o1 o1 o1 o2 w3 y1"
-    "bk w6 w6 bk w7 w7 w7 w8 y2 y2 y2 o1 o1 o1 o1 o2 w3 y1"
-    "bk w6 w6 bk w7 w7 w7 w8 y2 y2 y2 o1 o1 o1 o1 o2 w3 y1"
-    "bk w6 w6 bk y3 o3 o3 o3 b3 b3 b3 w7 w7 w7 w7 w8 bk bk"
-    "bk w6 w6 bk y3 o3 o3 o3 b3 b3 b3 w7 w7 w7 w7 w8 bk bk"
-    "w9 o4 o4 bk y5 z1 z1 z1 z1 z1 z2 z2 z2 b4 b4 y6 z3 z3"
-    "w9 o4 o4 bk y5 z1 z1 z1 z1 z1 z2 z2 z2 b4 b4 y6 z3 z3"
-    "w9 o4 o4 bk y5 z1 Z1 z1 z1 z1 z2 z2 z2 b4 b4 y6 z3 z3"
-    "w9 o4 o4 bk y5 z1 z1 z1 z1 z1 z2 z2 z2 b4 b4 y6 z3 z3"
-    "w9 o4 o4 bk y5 o5 o5 o5 bk bk bk bk bk z4 z4 z4 z4 z4"
-    "z5 z5 z5 z5 y5 o5 o5 o5 bk bk bk bk bk z4 z4 z4 z4 z4"
-    "z5 z5 z5 z5 y5 o5 o5 o5 bk bk bk bk bk z4 z4 z4 z4 z4"; 
+    "w1 w2 w2 w2 w2 w2 w2 w3 w3 w3 w3 w3 w3 w3 w3 w4 y1"
+    "w1 b1 b1 b1 b1 b1 b1 w5 w5 w5 b2 b2 b2 b2 b2 w4 y1"
+    ". w6 . w7 w7 w7 w8 y2 y2 y2 o1 o1 o1 o1 o2 w4 y1"
+    ". w6 . y3 o3 o3 o3 b3 b3 b3 w9 w9 w9 w9 z1 . . "
+    "z2 o4 . y4 z3 z3 z3 z3 z3 z4 z4 z4 z4 b4 y5 z5 z5"
+    "z6 z6 z6 y4 o5 o5 o5 . . . . . . z7 z7 z7 z7";
+    
     grid-gap: 8px;
     background: black;
     padding: 10px;
 }
 
-.item1, .item2, .item3, .item4 .item5, .item6, 
+.item1, .item2, .item3, .item4, .item5, .item6, 
 .item7, .item8, .item9, .item10, .item11, .item12, 
-.item13, .item14
+.item13, .item14, .item15, .item16
 {
     background: white;
 }
 
-.item15, .item16, .item17, .item18
+.item17, .item18, .item19, .item20
 {
     background: blue;
 }
 
-.item19, .item20, .item21, .item22, .item23
+.item21, .item22, .item23, .item24, .item25
 {
     background: yellow;
 }
 
-.item24, .item25, .item26, .item27, .item28
+.item26, .item27, .item28, .item29, .item30
 {
-    background: orange
+    background: red;
 }
 
 .item1
@@ -119,70 +109,80 @@
 
 .item15
 {
-    grid-area: b1;
+    grid-area: z6;
 }
 
 .item16
 {
-    grid-area: b2;
+    grid-area: z7;
 }
 
 .item17
 {
-    grid-area: b3;
+    grid-area: b1;
 }
 
 .item18
 {
-    grid-area: b4;
+    grid-area: b2;
 }
 
 .item19
 {
-    grid-area: y1;
+    grid-area: b3;
 }
 
 .item20
 {
-    grid-area: y2;
+    grid-area: b4;
 }
 
 .item21
 {
-    grid-area: y3;
+    grid-area: y1;
 }
 
 .item22
 {
-    grid-area: y4;
+    grid-area: y2;
 }
 
 .item23
 {
-    grid-area: y5;
+    grid-area: y3;
 }
 
 .item24
 {
-    grid-area: o1;
+    grid-area: y4;
 }
 
 .item25
 {
-    grid-area: o2;
+    grid-area: y5;
 }
 
 .item26
 {
-    grid-area: o3;
+    grid-area: o1;
 }
 
 .item27
 {
-    grid-area: o4;
+    grid-area: o2;
 }
 
 .item28
+{
+    grid-area: o3;
+}
+
+.item29
+{
+    grid-area: o4;
+}
+
+.item30
 {
     grid-area: o5;
 }
