@@ -18,7 +18,6 @@ body
 
 header
 {
-    flex: 1;
     background: red;
     justify-content: center;
 }
@@ -35,17 +34,18 @@ ul
     flex-direction: row;
     list-style: none;
     justify-content: stretch;
+    
 }
 
 li
 {
     flex : 1;
-    border: 2px outset black;
+    border: 1px outset white;
 }
 
 article
 {
-    flex: 6;
+    flex: 10;
     display: flex;
     justify-content: stretch;
 }
@@ -54,7 +54,7 @@ section
 {
     background: aqua;
     display: flex;
-    flex: 10;
+    flex: 11;
 }
 
 p
