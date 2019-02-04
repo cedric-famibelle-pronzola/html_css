@@ -1,0 +1,70 @@
+h1
+{
+    text-transform: uppercase;
+    text-align: center;
+}
+
+h2
+{
+    text-transform: capitalize;
+}
+
+body
+{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header
+{
+    display: flex;
+    background: red;
+    justify-content: center;
+}
+
+ul
+{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+article
+{
+    display: flex;
+    justify-content: stretch;
+}
+
+section
+{
+    background: aqua;
+    display: flex;
+    flex: 1;
+}
+
+p
+{
+    display: flex;
+    padding-left: 10px;
+    flex: 1;
+}
+
+
+aside:first-child
+{
+    display: flex;
+    background: yellow;
+}
+
+aside:last-child
+{
+    background: hotpink;
+    display: flex;
+}
+
+footer
+{
+    background: green;
+    text-align: center;
+}
