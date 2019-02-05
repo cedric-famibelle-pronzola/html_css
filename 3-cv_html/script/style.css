@@ -77,18 +77,9 @@ a:hover
     position: absolute;
     left : 600px;
     top : 5px;
-    float: left;
 }
 
 footer
 {
-    position: absolute;
-    left: 10px;
-    margin-left: 12px;
-}
-
-footer>article
-{
-    max-width: 550px;
-    min-width: 400px;
+    width: 580px;
 }
