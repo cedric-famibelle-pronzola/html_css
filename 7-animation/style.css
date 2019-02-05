@@ -1,0 +1,37 @@
+#content
+{
+    height: 250px;
+    width: 400px;
+    background: grey;
+    border-radius: 20px;
+    padding: 5px;
+
+}
+
+p
+{
+    text-align: center;
+}
+
+#carre
+{
+    position: relative;
+    background: red;
+    width: 100px;
+    height: 100px;
+    top: 50px;
+    left: 150px;
+    animation: carre;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    
+}
+
+@keyframes carre
+{
+    0% {background: red;}
+    25% {background: yellow; transform: rotate(120deg);}
+    50% {background: green; transform: rotate(120deg);}
+    75% {background: black;transform: rotate(50deg);}
+    100% {background: red;transform: rotate(50deg);}
+}
