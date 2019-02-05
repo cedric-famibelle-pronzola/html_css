@@ -33,6 +33,7 @@ h2
     border:2px solid green;
     animation: rebond;
     animation-duration: 4s;
+    animation-iteration-count: infinite;
 }
 
 @keyframes rebond

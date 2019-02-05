@@ -1,0 +1,73 @@
+h2
+{
+    text-align: center;
+}
+
+#content
+{
+    position: absolute;
+    height: 250px;
+    width: 400px;
+    background: grey;
+    border-radius: 20px;
+    padding: 10px;
+
+}
+
+#loader1
+{
+    box-sizing: border-box;
+    background:black;
+    position: relative;
+    border-radius:50%;
+    width: 30%;
+    height: 40%;
+    border:2px solid black;
+    animation-name: change;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+}
+
+#loader2
+{
+    box-sizing: border-box;
+    background:black;
+    position: relative;
+    bottom: 100px;
+    left: 130px;
+    border-radius:50%;
+    width: 30%;
+    height: 40%;
+    border:2px solid black;
+    animation-name: change;
+    animation-duration: 3s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+}
+
+#loader3
+{
+    box-sizing: border-box;
+    background:black;
+    position: relative;
+    bottom: 200px;
+    left: 260px;
+    border-radius:50%;
+    width: 30%;
+    height: 40%;
+    border:2px solid black;
+    animation-name: change;
+    animation-duration: 3s;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes change
+{
+    0% {background: white;}
+    100% {background: black;}
+
+}
+
+
