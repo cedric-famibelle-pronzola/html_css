@@ -20,7 +20,7 @@ h2
     width: 100px;
     height: 100px;
     top: 50px;
-    left: 150px;
+    margin: auto;
     animation: carre;
     animation-duration: 10s;
     animation-iteration-count: infinite;

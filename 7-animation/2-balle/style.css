@@ -1,0 +1,49 @@
+h2
+{
+    text-align: center;
+}
+
+#content
+{
+    height: 250px;
+    width: 400px;
+    background: grey;
+    border-radius: 20px;
+    padding: 5px;
+
+}
+
+#content2
+{
+    border: 1px solid green;
+    position: relative;
+    top: 20px;
+    margin: auto;
+    height: 150px;
+    width: 20px;
+}
+
+#balle
+{
+    background:green;
+    position: relative;
+    border-radius:50%;
+    width: 80%;
+    height: 10%;
+    border:2px solid green;
+    animation: rebond;
+    animation-duration: 4s;
+}
+
+@keyframes rebond
+{
+    0% {top : 0%;}
+    10% {top : 88%;}
+    20% {top : 50%;}
+    30% {top : 88%;}
+    40% {top : 60%;}
+    50% {top : 88%;}
+    60% {top : 70%;}
+    70% {top : 88%;}
+    100% {top : 0%;}
+}
