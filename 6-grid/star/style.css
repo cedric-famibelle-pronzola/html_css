@@ -13,7 +13,14 @@
     "b8 b8 b8 b8 b8 b8 r4 r4 r4 y3 y3 g1 g1 b9 b9 b9 b9 b9 b9"
     "ba r5 r6 r6 r6 r6 r6 bb y4 y4 bc g1 g1 g2 n1 n1 n1 v1 bd"
     ".  be r6 r6 r6 r6 r6 bb y4 y4 bc g1 g1 n2 n2 n2 v2 bf . "
-    ".  .  bg r7 r7 r7 y5 bb y6 g3 bc g1 ";
+    ".  .  bg r7 r7 r7 y5 bb y6 g3 bc g1 n3 n3 n3 v3 bh .  . "
+    ".  .  .  bi r8 y6 y6 y6 g4 g3 g5 n4 n4 n4 v5 bj .  .  . "
+    ".  .  .  .  bk y7 y7 g6 g4 g3 n5 n5 n5 v6 bl .  .  .  . "
+    ".  .  .  .  bk y8 g7 g6 g4 n6 n6 n6 v7 v7 bl .  .  .  . "
+    ".  .  .  bm y9 g8 g7 g6 n7 n7 n7 v8 v8 v8 v8 bn .  .  . "
+    ".  .  .  bm g9 g8 g7 n8 bo bo bo v9 v9 v9 v9 bn .  .  . ";
+
+    
     
     grid-gap: 8px;
     background: white;
