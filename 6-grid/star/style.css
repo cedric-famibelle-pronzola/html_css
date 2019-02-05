@@ -1,10 +1,10 @@
 .grid-container
 {
-    height: 55vh;
-    width: 800px;
+    height: 50vh;
+    width: 580px;
     display: grid;
     grid-template-areas:
-    ".  .  .  .  .  .  .  .  .  b1 .  .  .  .  .  .  .  .  . "
+    ".  .  .  .  .  .  .  .      .  b1 .  .  .  .  .  .  .  .  . "
     ".  .  .  .  .  .  .  .  b2 r1 b3 .  .  .  .  .  .  .  . "
     ".  .  .  .  .  .  .  b4 r2 r2 r2 b5 .  .  .  .  .  .  . "
     ".  .  .  .  .  .  .  b4 r2 r2 r2 b5 .  .  .  .  .  .  . "
@@ -22,7 +22,6 @@
     ".  .  bp ga g9 g8 bq bq .  .  .  br br va va h1 bs .  . "
     ".  .  bp ga g9 bt .  .  .  .  .  .  .  bu h2 h1 bs .  . "
     ".  .  bp bv bv .  .  .  .  .  .  .  .  .  bw bw bs .  . ";
-    grid-gap: 8px;
     background: white;
     padding: 10px;
 }
