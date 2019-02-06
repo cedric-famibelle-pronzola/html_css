@@ -32,19 +32,20 @@ h2
     height: 10%;
     border:2px solid green;
     animation: rebond;
-    animation-duration: 4s;
+    animation-duration: 5s;
     animation-iteration-count: infinite;
 }
 
 @keyframes rebond
 {
-    0% {top : 0%;}
-    10% {top : 88%;}
-    20% {top : 50%;}
-    30% {top : 88%;}
-    40% {top : 60%;}
-    50% {top : 88%;}
-    60% {top : 70%;}
-    70% {top : 88%;}
-    100% {top : 0%;}
+    0% {top : 0px;}
+    10% {transform: translateY(130px);}
+    20% {transform: translateY(30px);}
+    30% {transform: translateY(130px);}
+    40% {transform: translateY(60px);}
+    50% {transform: translateY(130px);}
+    60% {transform: translateY(90px);}
+    70% {transform: translateY(130px);}
+    80% {transform: translateY(110px);}
+    100% {transform: translateY(130px);}
 }
