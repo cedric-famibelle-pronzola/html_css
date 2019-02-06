@@ -1,0 +1,15 @@
+h2
+{
+    text-align: center;
+}
+
+#content
+{
+    position: absolute;
+    height: 250px;
+    width: 400px;
+    background: grey;
+    border-radius: 20px;
+    padding: 10px;
+
+}
