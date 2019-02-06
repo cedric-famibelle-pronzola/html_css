@@ -5,11 +5,118 @@ h2
 
 #content
 {
-    position: absolute;
+    position: relative;
     height: 250px;
-    width: 400px;
+    width: 600px;
     background: grey;
     border-radius: 20px;
     padding: 10px;
+}
 
+#ani1
+{
+    position: absolute;
+    text-align: center;
+    height: 20px;
+    width: 20px;
+    top: 5px;
+    left: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    animation-name: queue;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+
+#ani2
+{
+    position: absolute;
+    text-align: center;
+    height: 20px;
+    width: 20px;
+    top: 5px;
+    left: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    animation-name: queue;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+}
+
+#ani3
+{
+    position: absolute;
+    text-align: center;
+    height: 20px;
+    width: 20px;
+    top: 5px;
+    left: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    animation-name: queue;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+}
+
+#ani4
+{
+    position: absolute;
+    text-align: center;
+    height: 20px;
+    width: 20px;
+    top: 5px;
+    left: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    animation-name: queue;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-delay: 3s;
+}
+
+#ani5
+{
+    position: absolute;
+    text-align: center;
+    height: 20px;
+    width: 20px;
+    top: 5px;
+    left: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    animation-name: queue;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-delay: 4s;
+}
+
+#ani6
+{
+    position: absolute;
+    text-align: center;
+    height: 20px;
+    width: 20px;
+    top: 5px;
+    left: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    animation-name: queue;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-delay: 5s;
+}
+
+@keyframes queue
+{
+    0% {background: rgb(255, 91, 91); top: 5px; left:10px;}
+    10% {background: rgb(105, 105, 255); top: 5px; left:580px; transform: rotate(360deg);}
+    25% {background: rgb(116, 255, 116); top: 230px; left:580px; transform: rotate(720deg);}
+    35% {background: rgb(255, 91, 91); top: 230px; left:10px; transform: rotate(1080deg);}
+    50% {background: rgb(105, 105, 255); top: 5px; left:10px; transform: rotate(1440deg);}
+    60% {background: rgb(105, 105, 255); top: 5px; left:580px;  transform: rotate(1800deg);}
+    75% {background: rgb(116, 255, 116); top: 230px; left:580px; transform: rotate(2160deg);}
+    85% {background: rgb(255, 91, 91); top: 230px; left:10px; transform: rotate(2520deg);}
+    100% {background: rgb(255, 91, 91); top: 5px; left:10px; transform: rotate(2880deg);}
 }
