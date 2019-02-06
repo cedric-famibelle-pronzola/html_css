@@ -12,6 +12,7 @@ nav
 {
     padding-top: 20px;
     font-size: 1.2em;
+
 }
 
 ul
@@ -22,6 +23,7 @@ ul
     margin: 5px;
     color: white;
     list-style: none;
+    min-width: 100px;
 }
 
 li
@@ -38,10 +40,12 @@ li>ul
     margin-right: 20px;
 }
 
+
 li:hover>ul
 {
-    display: inline;
+    display: block;
     position: absolute;
     left: -80px;
-    width: 150px;
+    width: 200px;
+    height: 200px;
 }
