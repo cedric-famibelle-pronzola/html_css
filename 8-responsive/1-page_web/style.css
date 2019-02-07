@@ -3,18 +3,30 @@ footer
     visibility: hidden;
 }
 
+article
+{
+    display: flex;
+}
+
+p
+{
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 300px;
+}
+
 header
 {
     visibility: hidden;
 }
 
-@media screen and (max-width: 640px) 
+@media screen and (max-width : 640px)
 {
-    p
+
+    article
     {
-        float: left;
+        display: block;
     }
-}
 
 @media screen and (min-width : 801px)
 {
