@@ -1,3 +1,3 @@
-# Exercices de formation IFA (HTML et CSS) #
+# Exercices de formation IFA (HTML et CSS)
 
-## TEST H2 ##
+## TEST H2
