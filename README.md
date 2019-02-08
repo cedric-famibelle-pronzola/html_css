@@ -7,3 +7,6 @@
 ![alt](https://github.com/cedric-famibelle/html_css/blob/master/img/jcvdpat.jpg)
 
 
+## 2 - Faire un suqelette HTML5
+
+
