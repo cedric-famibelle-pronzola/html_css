@@ -39,6 +39,11 @@
 ![alt](https://github.com/cedric-famibelle/html_css/blob/master/img/4-absolute_2.jpg)
 
 
+### 5 - Absolute 3 (Box Size)
+
+![alt](https://github.com/cedric-famibelle/html_css/blob/master/img/5-absolute_3_box_size.jpg)
+
+
 
 
 
