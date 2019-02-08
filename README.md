@@ -9,4 +9,6 @@
 
 ## 2 - Faire un suqelette HTML5
 
+![alt](https://github.com/cedric-famibelle/html_css/blob/master/img/squelette.jpg)
+
 
