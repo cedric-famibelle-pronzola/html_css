@@ -29,6 +29,12 @@
 ![alt](https://github.com/cedric-famibelle/html_css/blob/master/img/2-relative.jpg)
 
 
+### 3 - Absolute
+
+![alt](https://github.com/cedric-famibelle/html_css/blob/master/img/3-absolute.jpg)
+
+
+
 
 
 
