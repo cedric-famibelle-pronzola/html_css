@@ -2,6 +2,6 @@
 
 ```
 <?php 
-    $intégration = 10 + 1;
+    var code = "formatted";
 ?>
 ```
