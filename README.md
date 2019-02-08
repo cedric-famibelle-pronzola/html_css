@@ -1,5 +1,7 @@
 # Exercices de formation IFA (HTML et CSS)
 
+*Après avoir cloné ou téléchargé le repositorie, ouvrez le fichier "index.html" afin de naviguer entre les différents exercices.*
+
 ## 1) JCVD Patrick Sébastien
 
 ### Reproduire la page sur la diapositive d'après. N'oubliez pas de valider votre code avec le validateur du W3C.
