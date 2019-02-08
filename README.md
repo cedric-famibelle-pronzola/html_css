@@ -55,6 +55,10 @@
 
 ![alt](https://github.com/cedric-famibelle/html_css/blob/master/img/7-float.jpg)
 
+### 8 - Sticky
+
+![alt](https://github.com/cedric-famibelle/html_css/blob/master/img/8-sticky.jpg)
+
 
 
 
