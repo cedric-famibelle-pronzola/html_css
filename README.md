@@ -44,6 +44,11 @@
 ![alt](https://github.com/cedric-famibelle/html_css/blob/master/img/5-absolute_3_box_size.jpg)
 
 
+### 6 - Z_index
+
+![alt](https://github.com/cedric-famibelle/html_css/blob/master/img/6-z_index.jpg)
+
+
 
 
 
