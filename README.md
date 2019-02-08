@@ -34,6 +34,11 @@
 ![alt](https://github.com/cedric-famibelle/html_css/blob/master/img/3-absolute.jpg)
 
 
+### 4 - Absolute 2
+
+![alt](https://github.com/cedric-famibelle/html_css/blob/master/img/4-absolute_2.jpg)
+
+
 
 
 
