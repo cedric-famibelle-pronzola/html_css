@@ -71,6 +71,11 @@
 * 1 footer prenant l’intégralité du pied de page
 
 
+## 6) Grid. Reproduire ce tableau de Mondrian.
+
+![alt](https://github.com/cedric-famibelle/html_css/blob/master/img/6-grid.jpg)
+
+
 
 
 
