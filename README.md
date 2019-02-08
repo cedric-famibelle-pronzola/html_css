@@ -60,6 +60,17 @@
 ![alt](https://github.com/cedric-famibelle/html_css/blob/master/img/8-sticky.jpg)
 
 
+## 5) Flex. Reproduire la page.
+
+![alt](https://github.com/cedric-famibelle/html_css/blob/master/img/5-flex.jpg)
+
+* 1 header avec un titre principal
+* 1 menu de navigation avec un titre et 5 liens
+* 1 aside de chaque côté
+* 1 conteneur central avec 3 champs de texte aligner sur le haut
+* 1 footer prenant l’intégralité du pied de page
+
+
 
 
 
