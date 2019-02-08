@@ -83,7 +83,7 @@
 ![star](https://github.com/cedric-famibelle/html_css/blob/master/6-grid/star/exemple.jpg)
 
 
-## 7) [Animation](https://github.com/cedric-famibelle/html_css/tree/master/7-animation)
+## 7) [Animation : Reproduire les animations du gif ci-dessous](https://github.com/cedric-famibelle/html_css/tree/master/7-animation)
 
 ![animation](https://github.com/cedric-famibelle/html_css/blob/master/7-animation/animation.gif)
 
