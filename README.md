@@ -85,6 +85,8 @@
 
 ## 7) [Animation](https://github.com/cedric-famibelle/html_css/tree/master/7-animation)
 
+![animation](https://github.com/cedric-famibelle/html_css/blob/master/7-animation/animation.gif)
+
 ### 0 - [Transition](https://github.com/cedric-famibelle/html_css/tree/master/7-animation/0-transition) -> [HTML](https://github.com/cedric-famibelle/html_css/blob/master/7-animation/0-transition/transition.html) -> [CSS](https://github.com/cedric-famibelle/html_css/blob/master/7-animation/0-transition/style.css)
 
 
