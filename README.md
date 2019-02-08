@@ -49,6 +49,11 @@
 ![alt](https://github.com/cedric-famibelle/html_css/blob/master/img/6-z_index.jpg)
 
 
+### 7 - Float
+
+![alt](https://github.com/cedric-famibelle/html_css/blob/master/img/7-float.jpg)
+
+
 
 
 
