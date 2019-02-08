@@ -53,9 +53,10 @@ section>p
         position: absolute;
         top: 150px;
         margin-left: 0px;
-        border-bottom: 1px solid black;
-
     }
-
+    header
+    {
+        border: none;
+    }
 
 }
