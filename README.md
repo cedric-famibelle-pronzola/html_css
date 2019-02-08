@@ -29,36 +29,36 @@
 ![no_position](https://github.com/cedric-famibelle/html_css/blob/master/img/1-no_position.jpg)
 
 
-### 2 - [Relative](https://github.com/cedric-famibelle/html_css/tree/master/4-positionnement/2-relative) -> [HTML](https://github.com/cedric-famibelle/html_css/blob/master/4-positionnement/2-relative/relative.html) -> [CSS](https://github.com/cedric-famibelle/html_css/blob/master/4-positionnement/2-relative/style.css)
+### 2 - [Relative (utiliser position relative)](https://github.com/cedric-famibelle/html_css/tree/master/4-positionnement/2-relative) -> [HTML](https://github.com/cedric-famibelle/html_css/blob/master/4-positionnement/2-relative/relative.html) -> [CSS](https://github.com/cedric-famibelle/html_css/blob/master/4-positionnement/2-relative/style.css)
 
 ![relative](https://github.com/cedric-famibelle/html_css/blob/master/img/2-relative.jpg)
 
 
-### 3 - [Absolute](https://github.com/cedric-famibelle/html_css/tree/master/4-positionnement/3-absolute) -> [HTML](https://github.com/cedric-famibelle/html_css/blob/master/4-positionnement/3-absolute/absolute.html) -> [CSS](https://github.com/cedric-famibelle/html_css/blob/master/4-positionnement/3-absolute/style.css)
+### 3 - [Absolute (utiliser position absolute)](https://github.com/cedric-famibelle/html_css/tree/master/4-positionnement/3-absolute) -> [HTML](https://github.com/cedric-famibelle/html_css/blob/master/4-positionnement/3-absolute/absolute.html) -> [CSS](https://github.com/cedric-famibelle/html_css/blob/master/4-positionnement/3-absolute/style.css)
 
 ![absolute](https://github.com/cedric-famibelle/html_css/blob/master/img/3-absolute.jpg)
 
 
-### 4 - [Absolute 2](https://github.com/cedric-famibelle/html_css/tree/master/4-positionnement/4-absolute_2) -> [HTML](https://github.com/cedric-famibelle/html_css/blob/master/4-positionnement/4-absolute_2/absolute_2.html) -> [CSS](https://github.com/cedric-famibelle/html_css/blob/master/4-positionnement/4-absolute_2/style.css)
+### 4 - [Absolute 2 (utiliser position absolute)](https://github.com/cedric-famibelle/html_css/tree/master/4-positionnement/4-absolute_2) -> [HTML](https://github.com/cedric-famibelle/html_css/blob/master/4-positionnement/4-absolute_2/absolute_2.html) -> [CSS](https://github.com/cedric-famibelle/html_css/blob/master/4-positionnement/4-absolute_2/style.css)
 
 ![absolute_2](https://github.com/cedric-famibelle/html_css/blob/master/img/4-absolute_2.jpg)
 
 
-### 5 - [Absolute 3 (Box Size)](https://github.com/cedric-famibelle/html_css/tree/master/4-positionnement/5-absolute_3_box_size) -> [HTML](https://github.com/cedric-famibelle/html_css/blob/master/4-positionnement/5-absolute_3_box_size/absolute_3_box_size.html) -> [CSS](https://github.com/cedric-famibelle/html_css/blob/master/4-positionnement/5-absolute_3_box_size/style.css)
+### 5 - [Absolute 3 (Box Sizing)](https://github.com/cedric-famibelle/html_css/tree/master/4-positionnement/5-absolute_3_box_size) -> [HTML](https://github.com/cedric-famibelle/html_css/blob/master/4-positionnement/5-absolute_3_box_size/absolute_3_box_size.html) -> [CSS](https://github.com/cedric-famibelle/html_css/blob/master/4-positionnement/5-absolute_3_box_size/style.css)
 
 ![absolute_3](https://github.com/cedric-famibelle/html_css/blob/master/img/5-absolute_3_box_size.jpg)
 
 
-### 6 - [Z_index](https://github.com/cedric-famibelle/html_css/tree/master/4-positionnement/6-z_index) -> [HTML](https://github.com/cedric-famibelle/html_css/blob/master/4-positionnement/6-z_index/z_index.html) -> [CSS](https://github.com/cedric-famibelle/html_css/blob/master/4-positionnement/6-z_index/style.css)
+### 6 - [Z_index : Le flux doit respecter l’ordre suivant : vert, bleu, chocolat, jaune](https://github.com/cedric-famibelle/html_css/tree/master/4-positionnement/6-z_index) -> [HTML](https://github.com/cedric-famibelle/html_css/blob/master/4-positionnement/6-z_index/z_index.html) -> [CSS](https://github.com/cedric-famibelle/html_css/blob/master/4-positionnement/6-z_index/style.css)
 
 ![z_index](https://github.com/cedric-famibelle/html_css/blob/master/img/6-z_index.jpg)
 
 
-### 7 - [Float](https://github.com/cedric-famibelle/html_css/tree/master/4-positionnement/7-float) -> [HTML](https://github.com/cedric-famibelle/html_css/blob/master/4-positionnement/7-float/float.html) -> [CSS](https://github.com/cedric-famibelle/html_css/blob/master/4-positionnement/7-float/style.css)
+### 7 - [Float : Utiliser les propriétés float pour réaliser ce dessin](https://github.com/cedric-famibelle/html_css/tree/master/4-positionnement/7-float) -> [HTML](https://github.com/cedric-famibelle/html_css/blob/master/4-positionnement/7-float/float.html) -> [CSS](https://github.com/cedric-famibelle/html_css/blob/master/4-positionnement/7-float/style.css)
 
 ![float](https://github.com/cedric-famibelle/html_css/blob/master/img/7-float.jpg)
 
-### 8 - [Sticky](https://github.com/cedric-famibelle/html_css/tree/master/4-positionnement/8-sticky) -> [HTML](https://github.com/cedric-famibelle/html_css/blob/master/4-positionnement/8-sticky/sticky.html) -> [CSS](https://github.com/cedric-famibelle/html_css/blob/master/4-positionnement/8-sticky/style.css)
+### 8 - [Sticky : Reproduire le layout suivant](https://github.com/cedric-famibelle/html_css/tree/master/4-positionnement/8-sticky) -> [HTML](https://github.com/cedric-famibelle/html_css/blob/master/4-positionnement/8-sticky/sticky.html) -> [CSS](https://github.com/cedric-famibelle/html_css/blob/master/4-positionnement/8-sticky/style.css)
 
 ![sticky](https://github.com/cedric-famibelle/html_css/blob/master/img/8-sticky.jpg)
 
