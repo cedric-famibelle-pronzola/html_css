@@ -64,7 +64,6 @@ h2
     height: 400px;
     perspective: 900px;
     background: grey;
-    text-align: center;
 }
   
 #caroussel 
@@ -78,9 +77,9 @@ h2
   
 #caroussel div
 {
-	height: 10px;
-	width: 10px;
-	padding: 10px;
+	height: 5px;
+	width: 5px;
+	padding: 15px;
     position: absolute;
     border: 5px outset;
 }
