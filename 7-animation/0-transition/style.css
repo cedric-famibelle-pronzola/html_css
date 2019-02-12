@@ -4,7 +4,7 @@ div
     height: 30px;
     background: black;
     border-radius: 10px;
-    transition: height 3s;
+    transition: 3s;
 }
 
 h2
@@ -15,5 +15,5 @@ h2
 
 div:hover
 {
-    height: 800px;
+    height: 500px;
 }
