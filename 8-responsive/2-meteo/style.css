@@ -1,4 +1,4 @@
-img
+header>p>img
 {
     float: left;
 }
@@ -11,10 +11,8 @@ h2
 header
 {
     position: relative;
-    min-width: 200px;
-    max-width: 450px;
+    width: 400px;
     border-bottom: 1px solid black;
-
 }
 
 #nb
@@ -25,38 +23,200 @@ header
 
 #prec
 {
-    margin-left: 200px;
-
+    margin-left: 150px;
+    min-width: 180px;
 }
 
 sup
 {
     float: left;
-    
 }
 
-section>p 
+article
 {
-    float: left;
+    position: relative;
 }
 
-
-
-@media screen and (max-width : 700px)
+section>p
 {
-    sup
-    {
-        float: none;
-    }
+    margin-top:30px;
+}
+
+#today>p>img
+{
+    position: absolute;
+    top:-30px;
+    left: 130px;
+}
+
+#today>p:nth-child(2)
+{
+    position: absolute;
+    top: -40px;
+    left: 230px;
+}
+
+#today>p:nth-child(3)
+{
+    position: absolute;
+    top: -40px;
+    left: 300px;
+}
+
+#mercredi>p>img
+{
+    position: absolute;
+    top: 50px;
+    left: 130px;
+}
+
+#mercredi>p:nth-child(2)
+{
+    position: absolute;
+    top: 30px;
+    left: 230px;
+}
+
+#mercredi>p:nth-child(3)
+{
+    position: absolute;
+    top: 30px;
+    left: 300px;
+}
+
+#jeudi>p>img
+{
+    position: absolute;
+    top: 130px;
+    left: 130px;
+}
+
+#jeudi>p:nth-child(2)
+{
+    position: absolute;
+    top: 110px;
+    left: 230px;
+}
+
+#jeudi>p:nth-child(3)
+{
+    position: absolute;
+    top: 110px;
+    left: 300px;
+}
+
+#vendredi>p>img
+{
+    position: absolute;
+    top:200px;
+    left:130px;
+}
+
+#vendredi>p:nth-child(2)
+{
+    position: absolute;
+    top : 180px;
+    left : 230px;
+}
+
+#vendredi>p:nth-child(3)
+{
+    position: absolute;
+    top : 180px;
+    left: 300px;
+}
+
+#samedi>p>img
+{
+    position: absolute;
+    top : 275px;
+    left:130px;
+}
+
+#samedi>p:nth-child(2)
+{
+    position: absolute;
+    top : 260px;
+    left : 230px;
+}
+
+#samedi>p:nth-child(3)
+{
+    position: absolute;
+    top : 260px;
+    left: 300px;
+}
+
+#dimanche>p>img
+{
+    position: absolute;
+    top: 350px;
+    left:130px;
+}
+
+#dimanche>p:nth-child(2)
+{
+    position: absolute;
+    top: 330px;
+    left : 230px;
+}
+
+#dimanche>p:nth-child(3)
+{
+    position: absolute;
+    top: 330px;
+    left: 300px;
+}
+
+#lundi>p>img
+{
+    position: absolute;
+    top: 430px;
+    left:130px;
+}
+
+#lundi>p:nth-child(2)
+{
+    position: absolute;
+    top: 410px;
+    left : 230px;
+}
+
+#lundi>p:nth-child(3)
+{
+    position: absolute;
+    top: 410px;
+    left: 300px;
+}
+
+article>section
+{
+    border-bottom: 1px solid black;
+    width: 400px;
+    padding-bottom:10px;
+}
+
+@media screen and (max-width : 110px)
+{
+
     #prec
     {
         position: absolute;
         top: 150px;
-        margin-left: 0px;
+        margin-left:0px;
+        padding-bottom: 10px;
+        border-bottom: 1px solid black;
     }
+
     header
     {
-        border: none;
+        border:none;
+    }
+
+    section>p
+    {
+        position: absolute;
+        top: 280px;
     }
 
 }
