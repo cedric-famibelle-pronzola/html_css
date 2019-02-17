@@ -1,3 +1,8 @@
+body
+{
+    margin-top:-12px;
+}
+
 header>p>img
 {
     float: left;
@@ -13,6 +18,7 @@ header
     position: relative;
     width: 400px;
     border-bottom: 1px solid black;
+    font-size: 0.8em;
 }
 
 #nb
@@ -49,6 +55,7 @@ section>p
     left: 130px;
 }
 
+
 #today>p:nth-child(2)
 {
     position: absolute;
@@ -61,6 +68,7 @@ section>p
     position: absolute;
     top: -40px;
     left: 300px;
+    width: 70px;
 }
 
 #mercredi>p>img
@@ -82,33 +90,35 @@ section>p
     position: absolute;
     top: 30px;
     left: 300px;
+    width: 70px;
 }
 
 #jeudi>p>img
 {
     position: absolute;
-    top: 130px;
+    top: 120px;
     left: 130px;
 }
 
 #jeudi>p:nth-child(2)
 {
     position: absolute;
-    top: 110px;
+    top: 100px;
     left: 230px;
 }
 
 #jeudi>p:nth-child(3)
 {
     position: absolute;
-    top: 110px;
+    top: 100px;
     left: 300px;
+    width: 70px;
 }
 
 #vendredi>p>img
 {
     position: absolute;
-    top:200px;
+    top:190px;
     left:130px;
 }
 
@@ -124,69 +134,73 @@ section>p
     position: absolute;
     top : 180px;
     left: 300px;
+    width: 70px;
 }
 
 #samedi>p>img
 {
     position: absolute;
-    top : 275px;
+    top : 260px;
     left:130px;
 }
 
 #samedi>p:nth-child(2)
 {
     position: absolute;
-    top : 260px;
+    top : 250px;
     left : 230px;
 }
 
 #samedi>p:nth-child(3)
 {
     position: absolute;
-    top : 260px;
+    top : 250px;
     left: 300px;
+    width: 70px;
 }
 
 #dimanche>p>img
 {
     position: absolute;
-    top: 350px;
+    top: 340px;
     left:130px;
 }
 
 #dimanche>p:nth-child(2)
 {
     position: absolute;
-    top: 330px;
+    top: 320px;
     left : 230px;
 }
 
 #dimanche>p:nth-child(3)
 {
     position: absolute;
-    top: 330px;
+    top: 320px;
     left: 300px;
+    width: 70px;
 }
 
 #lundi>p>img
 {
     position: absolute;
-    top: 430px;
+    top: 410px;
     left:130px;
 }
 
 #lundi>p:nth-child(2)
 {
     position: absolute;
-    top: 410px;
+    top: 395px;
     left : 230px;
 }
 
 #lundi>p:nth-child(3)
 {
     position: absolute;
-    top: 410px;
+    top: 395px;
     left: 300px;
+    width: 70px;
 }
 
 article>section
@@ -196,27 +210,7 @@ article>section
     padding-bottom:10px;
 }
 
-@media screen and (max-width : 110px)
+p
 {
-
-    #prec
-    {
-        position: absolute;
-        top: 150px;
-        margin-left:0px;
-        padding-bottom: 10px;
-        border-bottom: 1px solid black;
-    }
-
-    header
-    {
-        border:none;
-    }
-
-    section>p
-    {
-        position: absolute;
-        top: 280px;
-    }
-
+    font-size: 0.9em;
 }
