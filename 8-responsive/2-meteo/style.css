@@ -1,8 +1,3 @@
-body
-{
-    margin-top:-12px;
-}
-
 header>p>img
 {
     float: left;
@@ -19,7 +14,6 @@ header
     position: relative;
     width: 400px;
     border-bottom: 1px solid black;
-    font-size: 0.8em;
 }
 
 #nb
@@ -55,7 +49,6 @@ section>p
     top:-30px;
     left: 130px;
 }
-
 
 #today>p:nth-child(2)
 {
@@ -97,21 +90,21 @@ section>p
 #jeudi>p>img
 {
     position: absolute;
-    top: 120px;
+    top: 130px;
     left: 130px;
 }
 
 #jeudi>p:nth-child(2)
 {
     position: absolute;
-    top: 100px;
+    top: 110px;
     left: 230px;
 }
 
 #jeudi>p:nth-child(3)
 {
     position: absolute;
-    top: 100px;
+    top: 110px;
     left: 300px;
     width: 70px;
 }
@@ -119,7 +112,7 @@ section>p
 #vendredi>p>img
 {
     position: absolute;
-    top:190px;
+    top:200px;
     left:130px;
 }
 
@@ -141,21 +134,21 @@ section>p
 #samedi>p>img
 {
     position: absolute;
-    top : 260px;
+    top : 275px;
     left:130px;
 }
 
 #samedi>p:nth-child(2)
 {
     position: absolute;
-    top : 250px;
+    top : 260px;
     left : 230px;
 }
 
 #samedi>p:nth-child(3)
 {
     position: absolute;
-    top : 250px;
+    top : 260px;
     left: 300px;
     width: 70px;
 }
@@ -163,21 +156,21 @@ section>p
 #dimanche>p>img
 {
     position: absolute;
-    top: 340px;
+    top: 350px;
     left:130px;
 }
 
 #dimanche>p:nth-child(2)
 {
     position: absolute;
-    top: 320px;
+    top: 330px;
     left : 230px;
 }
 
 #dimanche>p:nth-child(3)
 {
     position: absolute;
-    top: 320px;
+    top: 330px;
     left: 300px;
     width: 70px;
 }
@@ -185,21 +178,21 @@ section>p
 #lundi>p>img
 {
     position: absolute;
-    top: 410px;
+    top: 430px;
     left:130px;
 }
 
 #lundi>p:nth-child(2)
 {
     position: absolute;
-    top: 395px;
+    top: 410px;
     left : 230px;
 }
 
 #lundi>p:nth-child(3)
 {
     position: absolute;
-    top: 395px;
+    top: 410px;
     left: 300px;
     width: 70px;
 }
@@ -211,7 +204,7 @@ article>section
     padding-bottom:10px;
 }
 
-p
+@media screen and (max-width : 110px)
 {
     font-size: 0.9em;
 }
