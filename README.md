@@ -105,3 +105,18 @@
 
 
 ### 5 - [3D](https://github.com/cedric-famibelle/html_css/tree/master/7-animation/5-3d) -> [HTML](https://github.com/cedric-famibelle/html_css/blob/master/7-animation/5-3d/3d.html) -> [CSS](https://github.com/cedric-famibelle/html_css/blob/master/7-animation/5-3d/style.css)
+
+
+## 8) [Responsive](https://github.com/cedric-famibelle/html_css/tree/master/8-responsive)
+
+### 1 - [Page WEB](https://github.com/cedric-famibelle/html_css/tree/master/8-responsive/1-page_web) -> [HTML](https://github.com/cedric-famibelle/html_css/blob/master/8-responsive/1-page_web/responsive.html) -> [CSS](https://github.com/cedric-famibelle/html_css/blob/master/8-responsive/1-page_web/style.css)
+
+* Les containers contenant du texte sont affichés sous forme de colonnes au-dessus de 640px puis l’un en dessous de l’autre en dessous
+
+* Un header est visible seulement pour les écrans au-dessus de 800px
+
+* Un Footer est visible uniquement à l’impression
+
+### 2 - [Responsive : Reproduire le comportement de ce site météo avec les données de votre choix](https://github.com/cedric-famibelle/html_css/tree/master/8-responsive/2-meteo) -> [HTML](https://github.com/cedric-famibelle/html_css/blob/master/8-responsive/2-meteo/meteo.html) -> [CSS](https://github.com/cedric-famibelle/html_css/blob/master/8-responsive/2-meteo/style.css)
+
+![météo](https://github.com/cedric-famibelle/html_css/blob/master/img/responsive.jpg)
