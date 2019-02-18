@@ -44,7 +44,9 @@
 ![absolute_2](https://github.com/cedric-famibelle/html_css/blob/master/img/4-absolute_2.jpg)
 
 
-### 5 - [Absolute 3 (Box Sizing)](https://github.com/cedric-famibelle/html_css/tree/master/4-positionnement/5-absolute_3_box_size) -> [HTML](https://github.com/cedric-famibelle/html_css/blob/master/4-positionnement/5-absolute_3_box_size/absolute_3_box_size.html) -> [CSS](https://github.com/cedric-famibelle/html_css/blob/master/4-positionnement/5-absolute_3_box_size/style.css)
+### 5 - [Absolute 3 (Box Sizing) (Position absolute)](https://github.com/cedric-famibelle/html_css/tree/master/4-positionnement/5-absolute_3_box_size) -> [HTML](https://github.com/cedric-famibelle/html_css/blob/master/4-positionnement/5-absolute_3_box_size/absolute_3_box_size.html) -> [CSS](https://github.com/cedric-famibelle/html_css/blob/master/4-positionnement/5-absolute_3_box_size/style.css)
+
+### 5 - [Relative (Box Sizing) (Position relative)](https://github.com/cedric-famibelle/html_css/tree/master/4-positionnement/5-relative_box_size) -> [HTML](https://github.com/cedric-famibelle/html_css/blob/master/4-positionnement/5-relative_box_size/relative_box_size.html) -> [CSS](https://github.com/cedric-famibelle/html_css/blob/master/4-positionnement/5-relative_box_size/style.css)
 
 ![absolute_3](https://github.com/cedric-famibelle/html_css/blob/master/img/5-absolute_3_box_size.jpg)
 
