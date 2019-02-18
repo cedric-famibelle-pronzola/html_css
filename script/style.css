@@ -8,7 +8,9 @@ h1
 {
     text-align: center;
     background-color: #4CAF50;
+    border: 2px solid black;
     width: 100%;
+    margin-top: 10px;
 }
 
 h1 a
@@ -35,7 +37,6 @@ nav ul
 nav li 
 {
     width: 185px;
-    
     float:left;
     margin:auto;
     padding-top:7px;
@@ -49,7 +50,7 @@ nav li a
 {
 
     display:block;
-    width:90%;
+    width:100%;
     color:white;
     text-decoration:none;
     padding:5px;
@@ -80,4 +81,11 @@ nav li:hover ul li
 nav li ul 
 {
     position:absolute;
+}
+
+
+section img
+{
+    width: 20%;
+    height: 20%;
 }
