@@ -39,8 +39,20 @@ article
     position: relative;
 }
 
+section
+{
+    width: 50%;
+}
+
 section>p
 {
-    margin-top:30px;
+    display: inline;
 }
+
+section>p:nth-child(2)
+{
+    color: red;
+}
+
+
 
