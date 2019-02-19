@@ -4,10 +4,10 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="Exercices HTML et CSS de Cédric FAMIBELLE">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="./script/bootstrap/css/bootstrap.min.css">
+        <script src="./script/bootstrap/js/jquery-3.3.1.slim.min.js"></script>
+        <script src="./script/bootstrap/js/popper.min.js"></script>
+        <script src="./script/bootstrap/js/bootstrap.min.js"></script>
         <link rel="shortcut icon" target="_blank" href="./img/html.ico" type="image/x-icon">
 
         <title>Exercices HTML et CSS</title>
@@ -15,16 +15,16 @@
     <body>
 
         <header>
-            <h1><a href="./index.html">Exercices HTML et CSS</a> </h1>
+            <h1 class="text-center"><a href="./index.html">Exercices HTML et CSS</a> </h1>
         </header>
 
-        <nav class="d-flex p-2 bd-highlight navbar sticky-top navbar-expand-lg navbar-light" style="background-color: #09fa51;">
-            <a class="navbar-brand" href="#">Exercices HTML et CSS</a>
+        <nav class="navbar sticky-top navbar-expand-lg navbar-light" style="background-color: #09fa51;">
+            <a class="navbar-brand" href="#">Menu</a>
             <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">  
+            <div class="collapse d-lg-flex navbar-collapse" id="navbarSupportedContent">  
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item"><a class="nav-link" href="#jcvd"> JCVD, Patrick Sébastien<span class="sr-only">(current)</span></a></li>
                     <li class="nav-item"><a class="nav-link" href="./2-squelette_html/index.html">Squelette HTML5</a></li>
@@ -71,8 +71,11 @@
         </nav>
         <article>
             <section>
-                <h3 id="jcvd">JCDV et Patrick Sébastien</h3>
+                <h3 class="mt-4" id="jcvd"><a target="_blank" href="./1-jcvd_patrick_sebastien/index.html">1) JCDV et Patrick Sébastien</a></h3>
                <a target="_blank" href="./1-jcvd_patrick_sebastien/index.html"><img class="img-fluid" src="./img/index/jcvd_3.jpg" alt="Image de l'exercice 1 (JCVD)" title="Cliquez pour ouvrir la page"></a>
+            </section>
+            <section>
+                <h3 class="mt-4" id="squelette"><a target="_blank" href="./2-squelette_html/index.html">2) Faire un squelette HTML5</a></h3>
             </section>
         </article>
         
