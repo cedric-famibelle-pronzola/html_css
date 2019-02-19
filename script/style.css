@@ -22,9 +22,13 @@ h1 a
 
 nav
 {
+    position: sticky;
+    top : 10px;
     width: 100%;
     margin-left: 10px;
     margin-right: 1px;
+    display: flex;
+    justify-content: space-around;
 }
 
 nav ul 
@@ -53,7 +57,6 @@ nav li a
     width:100%;
     color:white;
     text-decoration:none;
-    padding:5px;
     text-align: center;
     height: 30px;
     
@@ -81,11 +84,4 @@ nav li:hover ul li
 nav li ul 
 {
     position:absolute;
-}
-
-
-section img
-{
-    width: 20%;
-    height: 20%;
 }

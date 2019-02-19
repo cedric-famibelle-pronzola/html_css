@@ -4,8 +4,12 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="Exercices HTML et CSS de Cédric FAMIBELLE">
-        <link rel="stylesheet" target="_blank" href="./script/style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
         <link rel="shortcut icon" target="_blank" href="./img/html.ico" type="image/x-icon">
+
         <title>Exercices HTML et CSS</title>
     </head>
     <body>
@@ -14,59 +18,61 @@
             <h1><a href="./index.html">Exercices HTML et CSS</a> </h1>
         </header>
 
-        <nav>
+        <nav class="d-flex p-2 bd-highlight navbar sticky-top navbar-expand-lg navbar-light" style="background-color: #09fa51;">
+            <a class="navbar-brand" href="#">Exercices HTML et CSS</a>
+            <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-            <ul>
-                <li class="big"><a target="_blank" href="./1-jcvd_patrick_sebastien/index.html"> JCVD, Patrick Sébastien</a></li>
-                <li class="big"><a target="_blank" href="./2-squelette_html/index.html">Squelette HTML5</a></li>
-                <li><a target="_blank" href="./3-cv_html/cv.html">CV HTML</a></li>
-                <li><a href="#">Positionnement</a>
-                    <ul>
-                        <li><a target="_blank" href="./4-positionnement/1-no_position/no_position.html">No Position</a></li>
-                        <li><a target="_blank" href="./4-positionnement/2-relative/relative.html">Position Relative</a></li>
-                        <li><a target="_blank" href="./4-positionnement/3-absolute/absolute.html">Position Absolute</a></li>
-                        <li><a target="_blank" href="./4-positionnement/4-absolute_2/absolute_2.html">Position Absolute 2</a></li>
-                        <li><a target="_blank" href="./4-positionnement/5-absolute_3_box_size/absolute_3_box_size.html">Absolute Box Sizing</a></li>
-                        <li><a target="_blank" href="./4-positionnement/5-relative_box_size/relative_box_size.html">Relative Box Sizing</a></li>
-                        <li><a target="_blank" href="./4-positionnement/6-z_index/z_index.html">Z_index</a></li>
-                        <li><a target="_blank" href="./4-positionnement/7-float/float.html">Float</a></li>
-                        <li><a target="_blank" href="./4-positionnement/8-sticky/sticky.html">Sticky</a></li>
-                    </ul>
-                </li>
-                <li><a target="_blank" href="./5-flex/flex-exo.html">Flex</a></li>
-                <li><a href="#">Grid</a>
-                    <ul>
-                        <li>
-                            <a target="_blank" href="./6-grid/grid.html">Mondrian</a>
-                        </li>
-                        <li>
-                            <a target="_blank" href="./6-grid/star/star.html">Star</a>
-                        </li>
-                    </ul>
-                </li>
-                <li><a href="#">Animation</a>
-                    <ul>
-                        <li><a target="_blank" href="./7-animation/0-transition/transition.html">Transition</a></li>
-                        <li><a target="_blank" href="./7-animation/1-carre/carre.html">Carré</a></li>
-                        <li><a target="_blank" href="./7-animation/2-balle/balle.html">Balle</a></li>
-                        <li><a target="_blank" href="./7-animation/3-loader/loader.html">Loader</a></li>
-                        <li><a target="_blank" href="./7-animation/4-queue/queue.html">Queue</a></li>
-                        <li><a target="_blank" href="./7-animation/5-3d/3d.html">Animation 3D</a></li>
-                    </ul>
-                </li>
-                <li><a href="#">Responsive</a>
-                    <ul>
-                        <li><a target="_blank" href="./8-responsive/1-page_web/responsive.html">Page Web</a></li>
-                        <li><a target="_blank" href="./8-responsive/2-meteo/meteo.html">Météo</a></li>
-                        <li><a target="_blank" href="./8-responsive/2-balle/balle.html">Grille</a></li>
-                    </ul>
-                </li>
-            </ul>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">  
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item"><a class="nav-link" href="#jcvd"> JCVD, Patrick Sébastien<span class="sr-only">(current)</span></a></li>
+                    <li class="nav-item"><a class="nav-link" href="./2-squelette_html/index.html">Squelette HTML5</a></li>
+                    <li class="nav-item"><a class="nav-link" target="_blank" href="./3-cv_html/cv.html">CV HTML</a></li>
+                    <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">Positionnement</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" target="_blank" href="./4-positionnement/1-no_position/no_position.html">No Position</a>
+                            <a class="dropdown-item" target="_blank" href="./4-positionnement/2-relative/relative.html">Position Relative</a>
+                            <a class="dropdown-item" target="_blank" href="./4-positionnement/3-absolute/absolute.html">Position Absolute</a>
+                            <a class="dropdown-item" target="_blank" href="./4-positionnement/4-absolute_2/absolute_2.html">Position Absolute 2</a>
+                            <a class="dropdown-item" target="_blank" href="./4-positionnement/5-absolute_3_box_size/absolute_3_box_size.html">Absolute Box Sizing</a>
+                            <a class="dropdown-item" target="_blank" href="./4-positionnement/5-relative_box_size/relative_box_size.html">Relative Box Sizing</a>
+                            <a class="dropdown-item" target="_blank" href="./4-positionnement/6-z_index/z_index.html">Z_index</a>
+                            <a class="dropdown-item" target="_blank" href="./4-positionnement/7-float/float.html">Float</a>
+                            <a class="dropdown-item" target="_blank" href="./4-positionnement/8-sticky/sticky.html">Sticky</a>
+                        </div>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" target="_blank" href="./5-flex/flex-exo.html">Flex</a></li>
+                    <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">Grid</a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" target="_blank" href="./6-grid/grid.html">Mondrian</a>
+                                <a class="dropdown-item" target="_blank" href="./6-grid/star/star.html">Star</a>
+                            </div>
+                    </li>
+                    <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">Animation</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" target="_blank" href="./7-animation/0-transition/transition.html">Transition</a>
+                            <a class="dropdown-item" target="_blank" href="./7-animation/1-carre/carre.html">Carré</a>
+                            <a class="dropdown-item" target="_blank" href="./7-animation/2-balle/balle.html">Balle</a>
+                            <a class="dropdown-item" target="_blank" href="./7-animation/3-loader/loader.html">Loader</a>
+                            <a class="dropdown-item" target="_blank" href="./7-animation/4-queue/queue.html">Queue</a>
+                            <a class="dropdown-item" target="_blank" href="./7-animation/5-3d/3d.html">Animation 3D</a>
+                        </div>
+                    </li>
+                   <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">Responsive</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" target="_blank" href="./8-responsive/1-page_web/responsive.html">Page Web</a>
+                            <a class="dropdown-item" target="_blank" href="./8-responsive/2-meteo/meteo.html">Météo</a>
+                            <a class="dropdown-item" target="_blank" href="./8-responsive/2-balle/balle.html">Grille</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
         </nav>
-
         <article>
             <section>
-                <img src="./img/jcvdpat.jpg" alt="Image de l'exercice 1">
+                <h3 id="jcvd">JCDV et Patrick Sébastien</h3>
+               <a target="_blank" href="./1-jcvd_patrick_sebastien/index.html"><img class="img-fluid" src="./img/index/jcvd_3.jpg" alt="Image de l'exercice 1 (JCVD)" title="Cliquez pour ouvrir la page"></a>
             </section>
         </article>
         
