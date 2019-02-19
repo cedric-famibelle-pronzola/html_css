@@ -1,6 +1,6 @@
 #contain
 {
-    width: 50%;
+    width: 200px;
 }
 
 .vert
@@ -8,13 +8,14 @@
     background-color: green;
     border: 3px solid black;
     padding: 10%;
+
 }
 
 .bleue
 {
     background-color: blue;
     border: 3px solid black;
-    padding: 20%;
+    padding: 10%;
 }
 
 .orange
