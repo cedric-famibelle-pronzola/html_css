@@ -17,7 +17,6 @@ $(document).ready(function () {
     })
 })
 
-
 $(document).ready(function () {
     $('.dropdown-toggle-grid').mouseover(function() {
         $('.drop-grid').show();
