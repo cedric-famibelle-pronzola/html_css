@@ -6,24 +6,82 @@
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>Exercice JCVD | 22/01/2019</title>
         <meta name="description" content="Premier exercice HTML concernant JCVD et Patrick Sébastien">
-        <link rel="icon" href="html.ico" type="image/x-icon">
+        <link rel="stylesheet" href="../script/bootstrap/css/bootstrap.min.css">
+        <script src="../script/bootstrap/js/jquery-3.3.1.slim.min.js"></script>
+        <script src="../script/bootstrap/js/popper.min.js"></script>
+        <script src="../script/bootstrap/js/bootstrap.min.js"></script>
+        <script src="../script/main.js"></script>
+        <link rel="shortcut icon" target="_blank" href="../img/html.ico" type="image/x-icon">
         <link rel="stylesheet" href="./script/style.css">
         <base href="./img/">
     </head>
 
-    <body>
+    <body class="container-fluid">
+
+            <nav class="navbar fixed-top navbar-expand-xl navbar-dark" style="background-color: #2109fa;">
+                    <a class="navbar-brand text-danger" href="../../index.html">Accueil</a>
+                    <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+        
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">  
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item ml-5"><a class="nav-link text-warning" href="../index.html">JCVD, Patrick Sébastien<span class="sr-only">(current)</span></a></li>
+                            <li class="nav-item ml-5"><a class="nav-link text-warning" href="../../2-squelette_html/index.html">Squelette HTML5</a></li>
+                            <li class="nav-item ml-5"><a class="nav-link text-warning" href="../../3-cv_html/cv.html">CV HTML</a></li>
+                            <li class="nav-item dropdown ml-5"><a class="nav-link dropdown-toggle dropdown-toggle-position text-warning" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">Positionnement</a>
+                                <div class="dropdown-menu drop-position" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="../../4-positionnement/1-no_position/no_position.html">No Position</a>
+                                    <a class="dropdown-item" href="../../4-positionnement/2-relative/relative.html">Position Relative</a>
+                                    <a class="dropdown-item" href="../../4-positionnement/3-absolute/absolute.html">Position Absolute</a>
+                                    <a class="dropdown-item" href="../../4-positionnement/4-absolute_2/absolute_2.html">Position Absolute 2</a>
+                                    <a class="dropdown-item" href="../../4-positionnement/5-absolute_3_box_size/absolute_3_box_size.html">Absolute Box Sizing</a>
+                                    <a class="dropdown-item" href="../../4-positionnement/5-relative_box_size/relative_box_size.html">Relative Box Sizing</a>
+                                    <a class="dropdown-item" href="../../4-positionnement/6-z_index/z_index.html">Z_index</a>
+                                    <a class="dropdown-item" href="../../4-positionnement/7-float/float.html">Float</a>
+                                    <a class="dropdown-item" href="../../4-positionnement/8-sticky/sticky.html">Sticky</a>
+                                </div>
+                            </li>
+                            <li class="nav-item ml-5"><a class="nav-link text-warning" href="../../5-flex/flex-exo.html">Flex</a></li>
+                            <li class="nav-item dropdown ml-5"><a class="nav-link dropdown-toggle dropdown-toggle-grid text-warning" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">Grid</a>
+                                    <div class="dropdown-menu drop-grid" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="../../6-grid/grid.html">Mondrian</a>
+                                        <a class="dropdown-item" href="../../6-grid/star/star.html">Star</a>
+                                    </div>
+                            </li>
+                            <li class="nav-item dropdown ml-5"><a class="nav-link dropdown-toggle dropdown-toggle-anim text-warning" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">Animation</a>
+                                <div class="dropdown-menu drop-anim" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="../../7-animation/0-transition/transition.html">Transition</a>
+                                    <a class="dropdown-item" href="../../7-animation/1-carre/carre.html">Carré</a>
+                                    <a class="dropdown-item" href="../../7-animation/2-balle/balle.html">Balle</a>
+                                    <a class="dropdown-item" href="../../7-animation/3-loader/loader.html">Loader</a>
+                                    <a class="dropdown-item" href="../../7-animation/4-queue/queue.html">Queue</a>
+                                    <a class="dropdown-item" href="../../7-animation/5-3d/3d.html">Animation 3D</a>
+                                </div>
+                            </li>
+                           <li class="nav-item dropdown ml-5"><a class="nav-link dropdown-toggle dropdown-toggle-resp text-warning" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">Responsive</a>
+                                <div class="dropdown-menu drop-resp" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" target="_blank" href="../../8-responsive/1-page_web/responsive.html">Page Web</a>
+                                    <a class="dropdown-item" target="_blank" href="../../8-responsive/2-meteo/meteo.html">Météo</a>
+                                    <a class="dropdown-item" target="_blank" href="../../8-responsive/2-balle/balle.html">Grille</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+        
 
         <span id="acc"></span>
 
-        <ul>
-            <li>JCVD <a href="../index.html#jcvd" title="Aller à JCVD">ICI</a> </li>
+        <ul class="pt-5">
+            <li class="pt-5">JCVD <a href="../index.html#jcvd" title="Aller à JCVD">ICI</a> </li>
             <li>Patrick Sébastien <a href="../index.html#sebastien" title="Aller à Patrick Sebastien">ICI</a></li>
             <li>Classement Coupe du Monde 2018 <a href="../index.html#coupe" title="Aller à Coupe du monde">ICI</a></li>
             <li>Tableau <a href="../index.html#tableau" title="Aller au tableau">ICI</a></li>
         </ul>
         
-        <span id="jcvd"></span>
-        <h1>JCVD</h1>
+        <span class="pt-5" id="jcvd"></span>
+        <h1 class="pt-5">JCVD</h1>
         <img src="jcvd.jpg" alt="Photo de JCVD" title="Photo de JCVD">
         <img src="jcvd.gif" alt="JCVD qui danse" title="JCVD qui danse">
 
@@ -95,7 +153,7 @@
 
         <a href="../index.html#acc" title="Aller en haut">Retour en haut</a>
         <span id="sebastien"></span>
-        <h1>Patrick Sébastien</h1>
+        <h1 class="pt-5">Patrick Sébastien</h1>
         <h2>Citations</h2>
 
         <p>
@@ -144,7 +202,7 @@
 
         <a href="../index.html#acc" title="Aller en haut">Retour en haut</a>
         <span id="coupe"></span>
-        <h1>Résultat de la Coupe du Monde</h1>
+        <h1 class="pt-5">Résultat de la Coupe du Monde</h1>
         <img src="parodie.jpeg" alt="Parodie de la Coupe du monde de football" title="Parodie de la Coupe du monde de football">
 
         <ol>
@@ -158,7 +216,7 @@
 
         <a href="../index.html#acc" title="Aller en haut">Retour en haut</a>
         <span id="tableau"></span>
-        <h1>Tableau</h1>
+        <h1 class="pt-5">Tableau</h1>
 
         <table>
             <thead>
