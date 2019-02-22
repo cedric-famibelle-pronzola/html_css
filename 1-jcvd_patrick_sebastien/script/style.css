@@ -1,7 +1,12 @@
+body
+{
+    background-color: rgb(180, 152, 246);
+    color: white;
+}
+
 table
 {
     border-collapse: collapse;
-
 }
 
 td , th
@@ -20,12 +25,6 @@ pre
     text-align: left;
 }
 
-body
-{
-    background-color: rgb(94, 92, 92);
-    color: white;
-}
-
 a
 {
     color: yellow;
@@ -40,5 +39,3 @@ a:hover
 {
     color: blue;
 }
-
-

@@ -1,3 +1,11 @@
+body
+{
+    height: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
 h1
 {
     text-transform: uppercase;
@@ -9,12 +17,10 @@ h2
     text-transform: capitalize;
 }
 
-body
+p
 {
-    height: 100%;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
+    flex : 1 0 200px;
+    padding-left: 10px;
 }
 
 header
@@ -35,7 +41,6 @@ ul
     flex-direction: row;
     list-style: none;
     justify-content: stretch;
-    
 }
 
 li
@@ -57,12 +62,6 @@ section
     display: flex;
     flex-wrap: wrap;
     flex: 11;
-}
-
-p
-{
-    flex : 1 0 200px;
-    padding-left: 10px;
 }
 
 aside:first-child
