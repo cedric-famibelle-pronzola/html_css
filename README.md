@@ -2,7 +2,9 @@
 
 *Sur GitHub cliquez sur le titre de l'exercice, HTML ou CSS pour voir le code lié à chaque exercice.*
 
-*Vous pouvez également cloner ou télécharger le repositorie, ouvir le fichier "index.html" (en cours de modification) afin de naviguer entre les différents exercices.*
+*Vous pouvez également cloner ou télécharger le repositorie, ouvir le fichier "index.html" afin de naviguer entre les différents exercices.*
+
+*Sur la page "index.html", cliquez sur le titre pour accéder à l'exercice.*
 
 
 ## 1) [JCVD Patrick Sébastien](https://github.com/cedric-famibelle/html_css/tree/master/1-jcvd_patrick_sebastien) -> [HTML](https://github.com/cedric-famibelle/html_css/blob/master/1-jcvd_patrick_sebastien/index.html) -> [CSS](https://github.com/cedric-famibelle/html_css/blob/master/1-jcvd_patrick_sebastien/script/style.css)
