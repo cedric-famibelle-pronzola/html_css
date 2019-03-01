@@ -57,4 +57,35 @@ article>section>p
     width: 10%;
 }
 
+article>section>p:first-child
+{
+    font-weight: bold;
+}
+
+@media screen and (min-width:920px)
+{
+    article>section>p
+    {
+        display: block;
+    }
+    section
+    {
+        display:block;
+    }
+    article
+    {
+        border: none;
+        float: left;
+    }
+    header
+    {
+        border: none;   
+    }
+
+    body>article:nth-child(2), body>article:nth-child(3), body>article:nth-child(4), body>article:nth-child(5), body>article:nth-child(6), body>article:nth-child(7), body>article:nth-child(8)
+    {
+        margin-left:6%;
+    }
+}
+
 
