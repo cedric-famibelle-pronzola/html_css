@@ -12,7 +12,8 @@ h2
 header
 {
     position: relative;
-    min-width: 200%;
+    max-width: 90%;
+    border-bottom: 2px solid black; 
 
 }
 
@@ -37,11 +38,16 @@ sup
 article
 {
     position: relative;
+    max-width: 90%;
+    border-bottom: 2px solid black;
 }
 
 section
 {
-    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 section>p
@@ -49,10 +55,12 @@ section>p
     display: inline;
 }
 
-section>p:nth-child(2)
-{
-    color: red;
-}
 
+
+article>section>p:nth-child(2), article>section>p:nth-child(3), article>section>p:nth-child(4)
+{
+    display: inline-block;
+    max-width: 50%;
+}
 
 
