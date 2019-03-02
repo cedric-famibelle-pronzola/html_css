@@ -1,5 +1,7 @@
 # Exercices de formation IFA (HTML et CSS)
 
+## Accès direct : http://51.75.202.91/ifa_html/
+
 *Sur GitHub cliquez sur le titre de l'exercice, HTML ou CSS pour voir le code lié à chaque exercice.*
 
 *Vous pouvez également cloner ou télécharger le repositorie, ouvir le fichier "index.html" afin de naviguer entre les différents exercices.*
