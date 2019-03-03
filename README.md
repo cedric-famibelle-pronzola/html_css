@@ -95,20 +95,32 @@
 
 ### 0 - [Transition](https://github.com/cedric-famibelle/html_css/tree/master/7-animation/0-transition) -> [HTML](https://github.com/cedric-famibelle/html_css/blob/master/7-animation/0-transition/transition.html) -> [CSS](https://github.com/cedric-famibelle/html_css/blob/master/7-animation/0-transition/style.css)
 
+![transition](./img/index/0-transition.gif)
+
 
 ### 1 - [Carré](https://github.com/cedric-famibelle/html_css/tree/master/7-animation/1-carre) -> [HTML](https://github.com/cedric-famibelle/html_css/blob/master/7-animation/1-carre/carre.html) -> [CSS](https://github.com/cedric-famibelle/html_css/blob/master/7-animation/1-carre/style.css)
+
+![transition](./img/index/1-carre.gif)
 
 
 ### 2 - [Balle](https://github.com/cedric-famibelle/html_css/tree/master/7-animation/2-balle) -> [HTML](https://github.com/cedric-famibelle/html_css/blob/master/7-animation/2-balle/balle.html) -> [CSS](https://github.com/cedric-famibelle/html_css/blob/master/7-animation/2-balle/style.css)
 
+![transition](./img/index/2-balle.gif)
+
 
 ### 3 - [Loader](https://github.com/cedric-famibelle/html_css/tree/master/7-animation/3-loader) -> [HTML](https://github.com/cedric-famibelle/html_css/blob/master/7-animation/3-loader/loader.html) -> [CSS](https://github.com/cedric-famibelle/html_css/blob/master/7-animation/3-loader/style.css)
+
+![transition](./img/index/3-loader.gif)
 
 
 ### 4 - [Queue](https://github.com/cedric-famibelle/html_css/tree/master/7-animation/4-queue) -> [HTML](https://github.com/cedric-famibelle/html_css/blob/master/7-animation/4-queue/queue.html) -> [CSS](https://github.com/cedric-famibelle/html_css/blob/master/7-animation/4-queue/style.css)
 
+![transition](./img/index/4-queue.gif)
+
 
 ### 5 - [3D](https://github.com/cedric-famibelle/html_css/tree/master/7-animation/5-3d) -> [HTML](https://github.com/cedric-famibelle/html_css/blob/master/7-animation/5-3d/3d.html) -> [CSS](https://github.com/cedric-famibelle/html_css/blob/master/7-animation/5-3d/style.css)
+
+![transition](./img/index/5-3d.gif)
 
 
 ## 8) [Responsive](https://github.com/cedric-famibelle/html_css/tree/master/8-responsive)
@@ -124,3 +136,11 @@
 ### 2 - [Responsive : Reproduire le comportement de ce site météo avec les données de votre choix](https://github.com/cedric-famibelle/html_css/tree/master/8-responsive/2-meteo) -> [HTML](https://github.com/cedric-famibelle/html_css/blob/master/8-responsive/2-meteo/meteo.html) -> [CSS](https://github.com/cedric-famibelle/html_css/blob/master/8-responsive/2-meteo/style.css)
 
 ![météo](./img/responsive.jpg)
+
+### 3 - [Grille : Utilisez le système de grille pour reproduire le site suivant :](https://github.com/cedric-famibelle/html_css/tree/master/8-responsive/3-grille) -> [HTML](https://github.com/cedric-famibelle/html_css/blob/master/8-responsive/3-grille/grille.html) -> [CSS](https://github.com/cedric-famibelle/html_css/blob/master/8-responsive/3-grille/style.css)
+
+#### Version Desktop & Tablette
+![grille](./img/index/3-grille.jpg)
+
+#### Version Mobile
+![grille](./img/index/3-grille_mobile.jpg)
