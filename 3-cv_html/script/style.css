@@ -82,6 +82,12 @@ a:hover
     padding-bottom: 90px;
 }
 
+nav>ul>li
+{
+    display: inline;
+    margin-left: 10px;
+}
+
 footer
 {
     width: 580px;
