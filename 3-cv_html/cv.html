@@ -33,10 +33,13 @@
                     <a href="mailto:c.pronzola@live.fr"><img src="./img/mail.png" alt="Image Mail" title="Mail">c.pronzola@live.fr</a>
                 </p>
                 <p>
-                    <a href="https://www.linkedin.com/in/cedric-famibelle-pronzola/" target="_blank" ><img src="./img/linkedin.png" alt="Image Github" title="Github">Cédric FAMIBELLE-PRONZOLA</a>
+                    <a href="https://www.linkedin.com/in/cedric-famibelle-pronzola/" target="_blank" ><img src="./img/linkedin.png" alt="Image LinkedIn" title="LinkedIn">LinkedIn</a>
                 </p>
                 <p>
-                    <a href="https://github.com/cedric-famibelle" target="_blank" ><img src="./img/github.png" alt="Image Github" title="Github">cedric-famibelle</a>
+                    <a href="https://github.com/cedric-famibelle" target="_blank" ><img src="./img/github.png" alt="Image Github" title="Github">GitHub</a>
+                </p>
+                <p>
+                    <a href="https://gitlab.com/cedric_famibelle" target="_blank" ><img src="./img/gitlab.png" alt="Image GitLab" title="GitLab">GitLab</a>
                 </p>
                 <p>
                     <img src="./img/phone.png" alt="Image Téléphone" title="Téléphone"> 06.78.31.40.90
@@ -58,10 +61,10 @@
                 </p>
             </section>
         </article>
-        <article class="pt-5" id="right">
+        <article id="right">
             <h2 id="hidden">Parcours</h2>
             <section>
-                <h3>Formation</h3>
+                <h4>Formation</h4>
                 <p>
                     Septembre 2018 : Développeur Web à l’IFA de Metz
                 </p>
@@ -70,7 +73,7 @@
                 </p>
             </section>
             <section>
-                <h3>Compétences</h3>
+                <h4>Compétences</h4>
                 <p>
                     Maîtrise langages : HTML, CSS, PHP
                 </p>
@@ -85,7 +88,7 @@
                 </p>
             </section>
             <section>
-                <h3>Savoirs</h3>
+                <h4>Savoirs</h4>
                 <ul>
                     <li>Argumentation commerciale</li>
                     <li>Principes de la relation client</li>
@@ -95,7 +98,7 @@
                 </ul>
             </section>
             <section>
-                <h3>Savoir-faire</h3>
+                <h4>Savoir-faire</h4>
                 <ul>
                     <li>Conseiller un client</li>
                     <li>Proposer une solution d’assistance</li>
@@ -104,7 +107,7 @@
                 </ul>
             </section>
             <section>
-                <h3>Expériences</h3>
+                <h4>Expériences</h4>
                 <p>
                     Juin 2015 > Décembre 2017 : Conseiller clientèle Armatis (Engie Professionnels)
                 </p>
@@ -127,7 +130,16 @@
                 <h2>Formulaire </h2>
                 <form action="cv.html" method="post">
                     <fieldset>
-                        <legend>Veuillez remplir le formulaire ci-dessous</legend>
+                        <legend>Veuillez remplir le formulaire ci-dessous afin de me contacter</legend>
+                        <p>
+                            <label>Civilité :</label>
+                            <label for="monsieur">M.</label>
+                            <input type="radio" name="civilite" id="monsieur" value="monsieur" required>
+                            <label for="madame">MME</label>
+                            <input type="radio" name="civilite" id="madame" value="madame">
+                            <label for="mademoiselle">Mlle</label>
+                            <input type="radio" name="civilite" id="mademoiselle" value="mademoiselle">
+                        </p>
                         <p>
                             <label for="nom">Nom :</label>
                             <input type="text" name="nom" id="nom">
@@ -140,15 +152,7 @@
                             <label for="mail">Adresse Mail : </label>
                             <input type="email" name="mail" id="mail">
                         </p>
-                        <p>
-                            <label>Couleur favorite :</label>
-                            <label for="blue">Bleu</label>
-                            <input type="radio" name="color" id="blue" value="blue" required>
-                            <label for="red">Rouge</label>
-                            <input type="radio" name="color" id="red" value="red">
-                            <label for="yellow">Jaune</label>
-                            <input type="radio" name="color" id="yellow" value="yellow">
-                        </p>
+
                         <p>
                             <label for="sujet">Sujet :</label>
                             <input type="text" name="sujet" id="sujet">

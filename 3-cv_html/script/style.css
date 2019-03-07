@@ -34,6 +34,11 @@ h1, h2, h3
     text-align: center;
 }
 
+h4
+{
+    color: red;
+}
+
 h1
 {
     margin-top: -2px;
@@ -67,19 +72,40 @@ a:hover
     max-width: 550px;
     min-width: 400px;
     margin: 10px;
+    float: left;
+    margin-right: 50px;
 }
 
 #right
 {
-    max-width: 500px;
-    margin: 5px;
-    min-width: 350px;
-    position: absolute;
-    left : 600px;
-    top : 5px;
+    background: rgb(46, 46, 46);
+    padding-bottom: 90px;
 }
 
 footer
 {
     width: 580px;
+}
+
+@media screen and (max-width:1200px)
+{
+    #right
+    {
+        position: absolute;
+        top:1000px;
+        margin: 10px;
+        width: 530px;
+        padding-right: 30px;
+        padding-left: 10px;
+
+    }
+    
+    #form
+    {
+        position: absolute;
+        top: 1950px;
+        margin: 10px;
+        max-width: 650px;
+        padding-right: 30px;
+    }
 }
