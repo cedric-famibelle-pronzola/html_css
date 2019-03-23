@@ -5,6 +5,13 @@ body
     margin-left: 15px;
 }
 
+nav 
+{
+    display: flex;
+    justify-content: space-around;
+
+}
+
 header
 {
     text-align: center;
@@ -80,12 +87,14 @@ a:hover
 {
     background: rgb(46, 46, 46);
     padding-bottom: 90px;
+    padding-top: 20px;
 }
 
 nav>ul>li
 {
     display: inline;
     margin-left: 10px;
+ 
 }
 
 footer
