@@ -1,6 +1,6 @@
 # Exercices de formation IFA (HTML et CSS)
 
-## Accès direct : http://51.75.202.91/ifa_html/
+## Accès direct : http://www.cedric-famibelle.fr/ifa_html/
 
 *Sur GitHub cliquez sur le titre de l'exercice, HTML ou CSS pour voir le code lié à chaque exercice.*
 
