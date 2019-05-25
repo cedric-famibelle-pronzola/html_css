@@ -1,5 +1,7 @@
 # Exercices de formation IFA (HTML et CSS)
 
+[![Gif Angular Todo List]( http://www.cedric-famibelle.fr/gif/html-css.gif)](https://www.youtube.com/watch?v=PxsWXU6X8fM)
+
 ## Accès direct : http://www.cedric-famibelle.fr/ifa_html/
 
 *Sur GitHub cliquez sur le titre de l'exercice, HTML ou CSS pour voir le code lié à chaque exercice.*
